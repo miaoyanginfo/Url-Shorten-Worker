@@ -7,7 +7,7 @@ const config = {
   overwrite_kv: false, // Allow user to overwrite an existed key.
   snapchat_mode: false, // The link will be distroyed after access.
   visit_count: false, // Count visit times.
-  load_kv: false, // Load all from Cloudflare KV
+  load_kv: true, // Load all from Cloudflare KV
   system_type: "shorturl", // shorturl, imghost, other types {pastebin, journal}
 }
 
@@ -16,15 +16,15 @@ const protect_keylist = [
   "password",
 ]
 
-let index_html = "https://miaoyanginfo.github.io/Url-Shorten-Worker/" + config.theme + "/index.html"
-let result_html = "https://miaoyanginfo.github.io/Url-Shorten-Worker/" + config.theme + "/result.html"
+let index_html = "https://crazypeace.github.io/Url-Shorten-Worker/" + config.theme + "/index.html"
+let result_html = "https://crazypeace.github.io/Url-Shorten-Worker/" + config.theme + "/result.html"
 
 const html404 = `<!DOCTYPE html>
   <html>
   <body>
     <h1>404 Not Found.</h1>
     <p>The url you visit is not found.</p>
-    <p> <a href="https://github.com/crazypeace/Url-Shorten-Worker/" target="_self">Fork me on GitHub</a> </p>
+    <p> <a href="https://ycyc.win" target="_self">返回渊澄YC</a> </p>
   </body>
   </html>`
 
