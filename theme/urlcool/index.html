@@ -10,7 +10,7 @@
     else if(window.screen.width<=769)
     document.getElementsByTagName('meta')['viewport'].content="initial-scale=0.6, maximum-scale=1.0, minimum-scale=0.6, user-scalable=no"
   </script>
-  <title>渊澄短链接</title>
+  <title>渊澄短链接生成服务</title>
   <style>
     * {
       margin: 0;
@@ -181,7 +181,7 @@ color: #3F76FF;
     
     <div class="card-body">
         
-      <h5 class="bigtitle">Shorten your URLs !</h5>
+      <h5 class="bigtitle">渊澄短链接生成服务 !</h5>
       
       <h5 class="card-title">输入长链接：</h5>
       <div class="formm">
@@ -198,15 +198,15 @@ color: #3F76FF;
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Result</h5>
+          <h5 class="modal-title" id="exampleModalLabel">链接地址</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body" id="result">No Result</div>
+        <div class="modal-body" id="result">无结果</div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" onclick='copyurl("result")' data-toggle="popover" data-placement="bottom" data-content="Copied!">Copy</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>    
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>    
         </div>
       </div>
     </div>
